@@ -1,0 +1,53 @@
+<html>
+<head>
+        <meta charset="UTF-8">
+</head>
+<body style="display: table">
+    <form action="form.php" method="post">
+    <title>Form đăng kí</title>
+    <h1>Thông tin</h1>
+    <label>Tên:</label>
+    <input type="text" name="name"/> <br>
+    <br>
+    <label>Giới tính: </label>
+    <select name = "gender">
+        <option>Nam</option>
+        <option>Nữ</option>
+        <option>Khác</option>
+    </select>
+    <br><br>
+    <label>Lớp học:</label>
+    <input type="text" name="class"/> <br>
+    <br>
+    <label>Trường:</label>
+    <input type="text" name="school"/> <br>
+    <br>
+    <label>Ngày sinh:</label>
+    <input type="date" name="birthdaytime"> <br>
+    <br>
+    <label>Email :</label>
+    <input type="email" name="email"> <br>
+    <br>
+    <label>Số điện Thoại :</label>
+    <input type="number" name="phone"> <br>
+    <br>
+    <label>Sở thích :</label>
+    <br/>
+    <input type="checkbox" value="Đọc sách" name="habit[]"/>
+    <label>Đọc sách</label>
+    <input type="checkbox" value="Nghe nhạc" name="habit[]"/>
+    <label>Nghe nhạc</label>
+    <input type="checkbox" value="Xem phim" name="habit[]"/>
+    <label>Xem phim</label>
+    <input type="checkbox" value="Nấu ăn" name="habit[]"/>
+    <label>Nấu ăn</label>
+    <br/>
+    <label>Bạn phải robot không : </label>
+    <input type = "radio" name = "check"> Phải
+    <input type = "radio" name = "check"> Không phải
+    <br/>
+    <input type="submit" />
+    <input type="reset"/>
+    </form>
+</body>
+</html>
